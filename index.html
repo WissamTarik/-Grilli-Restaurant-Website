@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/all.css">
+   <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/Resturant.css">
+
+    <title>Grilli Website</title>
+</head>
+<body class="top" id="top">
+    <!-- Start preload -->
+     <div class="preload">
+        <div class="circle"></div>
+        <div class="text">Grilli</div>
+     </div>
+    <!-- End preload -->
+
+    <!-- Start topbar -->
+     <div class="topbar">
+        <div class="container">
+            <address class="topbar-item">
+                <div class="icon">
+                    <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                </div>
+                <span class="span">Restaurant st , Delicious city,London 9645,UK</span>
+            </address>
+            <div class="separator"></div>
+            <DIV class="topbar-item item-2">
+                <div class="icon">
+                    <i class="fa-solid fa-clock" aria-hidden="true"></i>
+                </div>
+                <span class="span">Daily: 8.00AM to 10.00PM</span>
+            </DIV>
+            <a href="tel: +804001234567" class="topbar-item link">
+                <div class="icon">
+                    <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                </div>
+                <span class="span">
+                    +804001234567
+                </span>
+            </a>
+            <div class="separator"></div>
+            <a href="mailto: +804001234567" class="topbar-item link">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                 <span class="span">booking@resturant.com </span>
+            </a>
+        </div>
+     </div>
+    <!-- End topbar -->
+
+    <!-- Start header -->
+     <header class="">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="images/logo.svg" alt="">
+            </a>
+            <nav class="navbar">
+                <button class="close-btn" type="button" data-toggle="collapse" >
+                    <i class="fa-solid fa-x" aria-hidden="true"></i>
+                </button>
+                <a class="logo" href="#">
+                    <img src="images/logo.svg" alt="">
+                </a>
+
+               <ul class="navbar-list ">
+                    <li class="nav-item">
+                      <a class="nav-link hover-underline active" href="#home">
+                        <div class="separator"></div>
+                        <span class="span">Home</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link hover-underline" href="#">
+                        <div class="separator"></div>
+                        <span class="span">Menus</span>
+                       </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link hover-underline" href="#">
+                        <div class="separator"></div>
+                        <span class="span">About Us</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover-underline" href="#">
+                          <div class="separator"></div>
+                          <span class="span">Our Chefs</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link hover-underline" href="#">
+                          <div class="separator"></div>
+                          <span class="span">Pages</span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link hover-underline active" href="#">
+                          <div class="separator"></div>
+                          <span class="span">contact</span>
+                        </a>
+                      </li>
+                  </ul>
+                <div class="text-center">
+                    <p class="headline-1 navbar-title">Visit Us</p>
+                    <address class="body-4">
+                        Restaurant st , Delicious City,
+                        <br>
+                        <br>
+                        London 9645,UK
+                    </address>
+                <a href="" class="body-4 navbar-text">
+                  Open 9:30AM to 2:30PM
+                </a>
+                <a href="" class="body-4 sidebar-link">
+                  booking@grilli.com
+                </a>
+                <div class="separator"></div>
+                <p class="contact-label">Booking Request</p>
+                <a href="tel:+11234567898" class="contact-number hover-underline body-1">+1 123 456 7898</a>
+                </div>
+            </nav>
+            <a href="" class="btn btn-secondary">
+              <span class="text text-1">Find A Table</span>
+              <span class="text text-2">Find A Table</span>
+            </a>
+            <div class="nav-open-btn" data-nav-toggler>
+              <span class=" line line-1"></span>
+              <span class=" line line-2"></span>
+              <span class=" line line-3"></span>
+            </div>
+          <div class="overlay" data-nav-toggler></div>
+        </div>
+
+         
+     </header>
+    <!-- End header -->
+     <main>
+      <article>
+        <!-- Start Hero -->
+         <section class="hero text-center" id="home">
+          <ul class="hero-slider">
+            <li class="slider-item active">
+              <div class="slider-bg">
+                <img src="images/hero-slider-1.jpg" alt=" slider-1" width="1880" height="950" class="img-cover" >
+              </div>
+              <p class="label-2 section-subtitle slider-reveal">Tradational & Hygine</p>
+              <h1 class="hero-title slider-reveal display-1">     
+                For the love of <br>
+                delicious food</h1>
+                <p class="slider-reveal body-2 hero-text">
+                  Come with family & feel the joy of mouthwatering food
+                </p>
+                <a href="" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">View our menu</span>
+                  <span class="text text-2">View our menu</span>
+                </a>
+            </li>
+            <li class="slider-item">
+              <div class="slider-bg">
+                <img src="images/hero-slider-2.jpg" alt=" slider-1" width="1880" height="950" class="img-cover" >
+              </div>
+              <p class="label-2 section-subtitle slider-reveal">Delightful Experience</p>
+              <h1 class="hero-title slider-reveal display-1">     
+                Flavors Inspired by <br>
+                the Seasons
+              </h1>
+                <p class="slider-reveal body-2 hero-text">
+                  Come with family & feel the joy of mouthwatering food
+                </p>
+                <a href="" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">View our menu</span>
+                  <span class="text text-2">View our menu</span>
+                </a>
+            </li>
+            <li class="slider-item">
+              <div class="slider-bg">
+                <img src="images/hero-slider-3.jpg" alt=" slider-1" width="1880" height="950" class="img-cover" >
+              </div>
+              <p class="label-2 section-subtitle slider-reveal">amazing & delicious</p>
+              <h1 class="hero-title slider-reveal display-1">     
+                Where every flavor <br>
+                      tells a story
+              </h1>
+                <p class="slider-reveal body-2 hero-text">
+                  Come with family & feel the joy of mouthwatering food
+                </p>
+                <a href="" class="btn btn-primary slider-reveal">
+                  <span class="text text-1">View our menu</span>
+                  <span class="text text-2">View our menu</span>
+                </a>
+            </li>
+          </ul> 
+          <button class="slider-btn prev" data-prev-btn>
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="slider-btn next" data-next-btn>
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+               <a href="" class="hero-btn has-after">
+                <img src="images/hero-icon.png" alt="booking icon" width="48" height="48">
+                <span class="span text-center label-2">book a table</span>
+               </a>
+          
+         </section>
+        <!-- End Hero -->
+
+        <!-- Start Service -->
+         <section class="section  text-center service bg-black-10" id="service">
+          <div class="container">
+            <p class="label-2 section-subtitle slider-reveal">Flavors For Royalty</p>
+            <h1 class="headline-1 section-title">We Offer Top Notch</h1>
+            <div class="section-text">      At our restaurant, we pride ourselves on offering an exceptional dining experience with a diverse menu that caters to all tastes. Whether you're here for a hearty breakfast, a light appetizer, or refreshing drinks, our dedicated team ensures that every dish is prepared with the highest quality ingredients and utmost care.
+               Explore our offerings and discover why we are a favorite among locals and visitors alike.</div>
+        
+          <ul class="grid-list"> 
+              <li>
+                <div class="service-card">
+                 <a href="" class="has-before hover-shine">
+                  <figure class="card-banner img-holder" style="--width:285 ; --height:336">
+                    <img src="images/service-1.jpg" alt="Breakfast" class="img-cover" loading="lazy" width="285" height="336">
+                  </figure>
+
+                 </a>
+                 <div class="card-content">
+                  <h2 class="card-title title-2"><a href="">Breakfast</a></h2>
+                  <a href="" class="btn-text hover-underline label-2">View Menu</a>
+                 </div>
+                </div>
+              </li>
+              <li>
+                <div class="service-card">
+                 <a href="" class="has-before hover-shine">
+                  <figure class="card-banner img-holder" style="--width:285 ; --height:336">
+                    <img src="images/service-2.jpg" alt="Appetizers" class="img-cover" loading="lazy" width="285" height="336">
+                  </figure>
+
+                 </a>
+                 <div class="card-content">
+                  <h2 class="card-title title-2"><a href="">Appetizers</a></h2>
+                  <a href="" class="btn-text hover-underline label-2">View Menu</a>
+                 </div>
+                </div>
+              </li>
+              <li>
+                <div class="service-card">
+                 <a href="" class="has-before hover-shine">
+                  <figure class="card-banner img-holder" style="--width:285 ; --height:336">
+                    <img src="images/service-3.jpg" alt="Breakfast" class="img-cover" loading="lazy" width="285" height="336">
+                  </figure>
+
+                 </a>
+                 <div class="card-content">
+                  <h2 class="card-title title-2"><a href="">Drinks</a></h2>
+                  <a href="" class="btn-text hover-underline label-2">View Menu</a>
+                 </div>
+                </div>
+              </li>
+          </ul>
+          <img src="/images/shape-1.png" alt="Shape" loading="lazy" width="246" height="412" class="shape shape-1 move-anim">
+          <img src="/images/shape-2.png" alt="Shape" loading="lazy" width="343" height="345" class="shape shape-2 move-anim">
+        </div>
+        </section>
+         <!-- End service -->
+          <!-- Start About -->
+           <section class="about text-center section" id="about">
+                   <div class="container">
+                    <div class="about-content">
+                      <p class="label-2 section-subtitle slider-reveal">our story</p>
+                      <h1 class="headline-1 section-title">Every Flavor Tells A Story</h1>
+                      <p class="section-text">
+                        At Grilli, we believe that every meal is a journey,
+                         and every dish tells a unique story. Our culinary team is
+                          dedicated to crafting exceptional experiences with fresh, locally-sourced ingredients.
+                           From our signature dishes to seasonal specials, we blend tradition with innovation to
+                            create flavors that captivate and delight. Join us and discover why our story is as rich 
+                            and flavorful as our menu.
+                      </p>
+                      <div class="contact-label">Book Through A Call</div>
+                      <a href="tel:+804001234567" class="contact-number hover-underline body-1"> +80 (400) 123 4567</a>
+                      <a  href="" class="btn btn-primary">
+                        <span class="text text-1">Read more</span>
+                        <span class="text text-2">Read more</span>
+                      </a>   
+                    </div>
+                    <figure class="about-banner">
+                      <img src="images/about-banner.jpg" alt="About Banner" class="w-100" loading="lazy" width="570" height="570" data-parallaX-item data-parallax-speed="1" >
+                      <div class="abs-img has-before abs-img-1" data-parallaX-item data-parallax-speed="1.75">
+                        <img src="images/about-abs-image.jpg" alt="" loading="lazy" class="w-100" width="285" height="285">
+                      </div>
+                      <div class="abs-img has-before abs-img-2" >
+                        <img src="images/badge-2.png" alt="" loading="lazy"  width="133" height="134">
+                      </div>
+                    </figure>
+                    <img src="images/shape-1.png" alt="" loading="lazy"  width="197" height="194" class="shape">
+                   </div>
+                   
+           </section>
+          <!-- End About -->
+
+          <!-- Start special dishes -->
+           <section class="special-dishes text-center">
+            <div class="special-dish-banner">
+              <img src="images/special-dish-banner.jpg" alt="Special dish" loading="lazy" class="img-cover" width="940" height="900">
+            </div>
+            <div class="container bg-black-10">
+               <img src="images/badge-1.png" alt="badge-1"  width="21" height="41" class="abs-img">
+              
+                <p class="label-2 section-subtitle slider-reveal">Special Dishes</p>
+                <h1 class="headline-1 section-title">Lobster Tortellini</h1>
+                <p class="section-text">
+                  At Grilli, our special dishes are crafted with passion and precision, showcasing the best of local and seasonal ingredients. Each dish is a celebration of flavor, blending traditional techniques with modern creativity. From our mouthwatering signature entrees to unique seasonal creations, our menu is designed to offer a memorable dining experience. Explore our special 
+                  dishes and savor the extraordinary tastes that make every visit to Grilli a culinary adventure.
+                </p>
+                <div class="wrapper">
+                  <del class="del body-3">$40.00</del>
+                  <span class="span body-1">$20.00</span>
+                </div>
+                <a href="#" class="btn btn-primary">
+                  <span class="text text-1">View all menu</span>
+                  <span class="text text-2">View all menu</span>
+                </a>
+           
+          </div>
+           </section>
+          <!-- End special dishes -->
+
+          <!-- Start Menu -->
+           <section class="section text-center menu" id="menu">
+            <div class="container">
+              <p class="label-2 section-subtitle">Special selection</p>
+              <h1 class="headline-1 section-title text-center">Delicious Menu</h1>
+              <ul class="grid-list">
+                  
+                  <li>
+                    <div class="menu-card hover-card">
+                        <figure class="card-banner img-holder" style="--width:100 ;--height:100 ;">
+                            <img src="images/menu-1.png" alt="Greek Salad" width="100" height="100"  loading="lazy" class="img-cover">
+                        </figure>
+                        <div>
+                            <div class="title-wrapper">
+                                <h3 class="title-3">
+                                    <a href="#" class="card-title">Greek Salad</a>
+                                </h3>
+                                <span class="badge label-1">Seasonal</span>
+                                <span class="span title-2">$25.40</span>
+
+                            </div>
+                            <p class="card-text label-2">Tomatoes , bell pepper ,sliced cucumber onion 
+                                ,olives and feta cheese</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                  <div class="menu-card hover-card">
+                      <figure class="card-banner img-holder" style="--width:100 ;--height:100 ;">
+                          <img src="images/menu-2.png" alt="Lasagne" width="100" height="100"  loading="lazy" class="img-cover">
+                      </figure>
+                      <div>
+                          <div class="title-wrapper">
+                              <h3 class="title-3">
+                                  <a href="#" class="card-title">Lasagne</a>
+                              </h3>
+                              <span class="span title-2">$40.00</span>
+
+                          </div>
+                          <p class="card-text label-2">Vegetable , cheese , ground meet,tomato sauce
+                            ,seasoning and spices</p>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                <div class="menu-card hover-card">
+                    <figure class="card-banner img-holder" style="--width:100 ;--height:100 ;">
+                        <img src="images/menu-3.png" alt="Butternut pumpkin" width="100" height="100"  loading="lazy" class="img-cover">
+                    </figure>
+                    <div>
+                        <div class="title-wrapper">
+                            <h3 class="title-3">
+                                <a href="#" class="card-title">Butternut pumpkin</a>
+                            </h3>
+                            <span class="span title-2">$10.00
+                            </span>
+
+                        </div>
+                        <p class="card-text label-2">Typesetting ,Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, dolore?</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+              <div class="menu-card hover-card">
+                  <figure class="card-banner img-holder" style="--width:100 ;--height:100 ;">
+                      <img src="images/menu-4.png" alt="Tokusen Magyu" width="100" height="100"  loading="lazy" class="img-cover">
+                  </figure>
+                  <div>
+                      <div class="title-wrapper">
+                          <h3 class="title-3">
+                              <a href="#" class="card-title">Tokusen Magyu</a>
+                          </h3>
+                          <span class="badge label-1">New</span>
+                          <span class="span title-2">$39.00</span>
+
+                      </div>
+                      <p class="card-text label-2">Vegetable , cheese , ground meet,tomato sauce
+                        ,seasoning and spices</p>
+                  </div>
+              </div>
+          </li>
+          <li>
+            <div class="menu-card hover-card">
+                <figure class="card-banner img-holder" style="--width:100 ;--height:100 ;">
+                    <img src="images/menu-5.png" alt="Olivas Rellanas" width="100" height="100"  loading="lazy" class="img-cover">
+                </figure>
+                <div>
+                    <div class="title-wrapper">
+                        <h3 class="title-3">
+                            <a href="#" class="card-title">Olivas Rellanas</a>
+                        </h3>
+                 
+                        <span class="span title-2">$25.00</span>
+
+                    </div>
+                    <p class="card-text label-2">Avocado with crab meat, red onion , crab salad stuffed red bell pepper
+                      and green bell pepper</p>
+                </div>
+            </div>
+        </li>
+        <li>
+          <div class="menu-card hover-card">
+              <figure class="card-banner img-holder" style="--width:100 ;--height:100 ;">
+                  <img src="images/menu-6.png" alt="Opu fish" width="100" height="100"  loading="lazy" class="img-cover">
+              </figure>
+              <div>
+                  <div class="title-wrapper">
+                      <h3 class="title-3">
+                          <a href="#" class="card-title">Opu fish</a>
+                      </h3>
+                      <span class="badge label-1">Seasonal</span>
+                      <span class="span title-2">$49.00</span>
+
+                  </div>
+                  <p class="card-text label-2">Tomatoes , bell pepper ,sliced cucumber onion 
+                      ,olives and feta cheese</p>
+              </div>
+          </div>
+      </li>
+              </ul>
+              <p class="menu-text text-center">
+                During winter daily from <span class="span"> 7.00AM</span> to <span class="span">9.00PM</span>
+              </p>
+              <a href="#" class="btn btn-primary">
+                <span class="text text-1">View all menu</span>
+                <span class="text text-2">View all menu</span>
+              </a>
+              <img src="images/shape-2.png" alt="shape" class="shape shape-2" loading="lazy" width="921" height="1036">
+              <img src="images/shape-3.png" alt="shape" class="shape shape-3" loading="lazy" width="343" height="345">
+            </div>
+           </section>
+          <!-- End Menu -->
+             
+          <!-- Start Testimonial -->
+          <section class="testimonial text-center section">
+                 <div class="container">
+                   <div class="quote">"</div>
+                   <div class="headline-2 testimonial-text">
+                    I wanted to thank you for inviting 
+                    me down for that amazing dinner the other night. The food was extraordinary
+                   </div>
+                   <div class="wrapper">
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                   </div>
+                   <div class="profile">
+                    <img src="images/testi-avatar.jpg" alt="testimonial-avatar" loading="lazy" width="100" height="100" class="img">
+                    <p class="label-2 name">Jone David</p>
+                   </div>
+                 </div>
+          </section>
+          <!-- End Testimonial -->
+
+          <!-- Start reservation -->
+           <section class="reservation" id="contact">
+            <div class="container">
+                  <div class="form bg-black-10 reservation-form">
+                    <form action="" class="form-left">
+                      <h2 class="headline-1 text-center">Online Reservation</h2>
+                      <p class="form-text text-center">
+                        Booking Request <a href="tel:+88123123456" class="link">+88-123-123456</a> or fill out the order form
+                      </p>
+                      <div class="input-wrapper">
+                        <input type="text" placeholder="Your name" autocomplete="off" class="input-field " name="name">
+                        <input type="tel" placeholder="phone Number" autocomplete="off" class="input-field " name="phone">
+                      </div>
+                      <div class="input-wrapper">
+                        <div class="icon-wrapper">
+                          <i class="fa-solid fa-user"></i>
+                          <select name="person" class="input-field">
+                            <option value="person 1">person 1</option>
+                            <option value="person 2">person 2</option>
+                            <option value="person 3">person 3</option>
+                            <option value="person 4">person 4</option>
+                            <option value="person 5">person 5</option>
+                            <option value="person 6">person 6</option>
+                            <option value="person 7">person 7</option>
+                          </select>
+                          <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <div class="icon-wrapper">
+                          <i class="fa fa-calendar" aria-hidden="true"></i>  
+                          <input type="date" name="date" class="input-field">
+                          <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+
+                        <div class="icon-wrapper">
+                          <i class="fa-solid fa-clock"></i>
+                          <select name="date" class="input-field">
+                            <option value="08:00AM">08:00AM</option>
+                            <option value="09:00AM">09:00AM</option>
+                            <option value="10:00AM">10:00AM</option>
+                            <option value="11:00AM">11:00AM</option>
+                            <option value="12:00AM">12:00AM</option>
+                            <option value="01:00PM">01:00PM</option>
+                            <option value="02:00PM">02:00PM</option>
+                            <option value="03:00PM">03:00PM</option>
+                            <option value="04:00PM">04:00PM</option>
+                            <option value="05:00PM">05:00PM</option>
+                            <option value="06:00PM">06:00PM</option>
+                            <option value="07:00PM">07:00PM</option>
+                            <option value="08:00PM">08:00PM</option>
+                            <option value="09:00PM">09:00PM</option>
+                            <option value="10:00PM">10:00PM</option>
+                          </select>
+                          <i class="fa-solid fa-chevron-down"></i>                      
+
+                      </div>
+                    </div>
+                        <textarea name="message" placeholder="Message" class="input-field" autocomplete="off"></textarea>
+                        <button type="submit" class="btn btn-secondary">
+                          <span class="text text-1">Book a table</span>
+                          <span class="text text-2">Book a table</span>
+                        </button>
+                    </form>
+                    <form action="" class="form-right text-center">
+                      <h2 class="headline-1 text-center">Contact Us</h2>
+                      <p class="contact-label">Booking request</p>
+                      <a href="tel:+88123123456" class="contact-number hover-underline body-1">+88-123-123456</a>
+                      <div class="separator"></div>
+                      <p class="contact-label">Location</p>
+                     <address class="body-4">
+                      Restaurant st , Delicious City,
+                      <br>
+                      London 9645,UK
+                     </address>
+                     <p class="contact-label">Launch Time</p>
+                          <p class="body-4">
+                            Monday to Sunday
+                            <br>
+                            11:00AM to 02:20AM
+                          </p>
+                          <p class="contact-label">Dinner Time</p>
+                          <p class="body-4">
+                            Monday to Sunday
+                            <br>
+                            05:00PM to 10:00PM
+                          </p>
+                    </form>
+                  </div>
+            </div>
+           </section>
+          <!-- End reservation -->
+
+          <!-- Start Features  -->
+          <section class="features text-center section">
+            <div class="container">
+                <p class="label-2 section-subtitle">Why choose us</p>
+                <h2 class="headline-1 text-center section-title">Our Strength</h2>
+                <ul class="grid-list">
+                    <li class="feature-item">
+                        <div class="feature-card">
+                            <div class="card-icon">
+                                <img src="images/features-icon-1.png" alt="Icon 1" loading="lazy" width="100" height="80">
+                            </div>
+                            <h3 class="title-2 card-title">Farm-to-Table Quality</h3>
+                            <p class="card-text label-1">Experience the freshest ingredients sourced directly from local farms. Our farm-to-table approach ensures top-notch quality in every dish.</p>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="feature-card">
+                            <div class="card-icon">
+                                <img src="images/features-icon-2.png" alt="Icon 2" loading="lazy" width="100" height="80">
+                            </div>
+                            <h3 class="title-2 card-title">Innovative Cuisine</h3>
+                            <p class="card-text label-1">Savor our creative and diverse menu that blends traditional flavors with modern twists. Our innovative dishes are sure to delight your palate.</p>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="feature-card">
+                            <div class="card-icon">
+                                <img src="images/features-icon-3.png" alt="Icon 3" loading="lazy" width="100" height="80">
+                            </div>
+                            <h3 class="title-2 card-title">Expert Culinary Team</h3>
+                            <p class="card-text label-1">Our team of highly skilled chefs brings years of experience and a passion for excellence to every meal. Enjoy expertly crafted dishes made with precision.</p>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="feature-card">
+                            <div class="card-icon">
+                                <img src="images/features-icon-4.png" alt="Icon 4" loading="lazy" width="100" height="80">
+                            </div>
+                            <h3 class="title-2 card-title">Memorable Events</h3>
+                            <p class="card-text label-1">From intimate gatherings to grand celebrations, we provide exceptional service and delectable food to make your events truly memorable.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+          <!-- End Features  -->
+          
+          <!-- Start Events -->
+              <!-- Start Events -->
+              <section class="section events bg-black-10" aria-label="event">
+                <div class="container">
+                    <p class="section-subtitle label-2 text-center">Recent Updates</p>
+                    <h2 class="headline-1 section-title text-center">Upcoming Event</h2>
+                    <ul class="grid-list">
+
+                        <li>
+                          <div class="event-card has-before hover:shine">
+            
+                            <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                              <img src="images/event-1.jpg" width="350" height="450" loading="lazy"
+                                alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+            
+                              <time class="publish-date label-2" datetime="2022-09-15">15/09/2022</time>
+                            </div>
+            
+                            <div class="card-content">
+                              <p class="card-subtitle label-2 text-center">Food, Flavour</p>
+            
+                              <h3 class="card-title title-2 text-center">
+                                Flavour so good you’ll try to eat with your eyes.
+                              </h3>
+                            </div>
+            
+                          </div>
+                        </li>
+            
+                        <li>
+                          <div class="event-card has-before hover:shine">
+            
+                            <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                              <img src="images/event-2.jpg" width="350" height="450" loading="lazy"
+                                alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+            
+                              <time class="publish-date label-2" datetime="2022-09-08">08/09/2022</time>
+                            </div>
+            
+                            <div class="card-content">
+                              <p class="card-subtitle label-2 text-center">Healthy Food</p>
+            
+                              <h3 class="card-title title-2 text-center">
+                                Flavour so good you’ll try to eat with your eyes.
+                              </h3>
+                            </div>
+            
+                          </div>
+                        </li>
+            
+                        <li>
+                          <div class="event-card has-before hover:shine">
+            
+                            <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                              <img src="images/event-3.jpg" width="350" height="450" loading="lazy"
+                                alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
+            
+                              <time class="publish-date label-2" datetime="2022-09-03">03/09/2022</time>
+                            </div>
+            
+                            <div class="card-content">
+                              <p class="card-subtitle label-2 text-center">Recipie</p>
+            
+                              <h3 class="card-title title-2 text-center">
+                                Flavour so good you’ll try to eat with your eyes.
+                              </h3>
+                            </div>
+            
+                          </div>
+                        </li>
+            
+                      </ul>
+                    <a href="#" class="btn btn-primary">
+                        <span class="text text-1">View Our BLog</span>
+                        <span class="text text-2" aria-hidden="true">View Our BLog</span>
+                    </a>
+                </div>
+               </section>
+          <!-- End Events -->
+      </article>
+     </main>
+     <!-- Start Footer -->
+     <footer class="footer text-center section">
+      <div class="container">
+        <div class="footer-top grid-list">
+          <div class="footer-brand has-before has-after">
+               <a class="logo" href="">
+                <img src="images/logo.svg" alt="grilli logo" loading="lazy" width="150" height="80">
+               </a>
+               <address class="body-4">
+                Restaurant st , Delicious city,London 9645,UK
+               </address>
+               <a href="mailto:booking@grilli.com" class="contact-link body-4">booking@grilli.com</a>
+               <a href="tel:88123123456" class="body-4 contact-number hover-underline">+88-123-123456</a>
+               <p class="body-4">Open 09:00AM to 01:00PM</p>
+               <div class="wrapper">
+                <div class="separator"></div>
+                <div class="separator"></div>
+                <div class="separator"></div>
+               </div>
+               <p class="title-1">Get News & Offers</p>
+               <p class="label-1">Subscribe Us & Get <span class="span">25% Off.</span></p>
+               <form action="" class="input-wrapper">
+                <div class="icon-wrapper">
+                  <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                   <input type="email" name="Email"  class="input-field" placeholder="Your Mail">
+                </div>
+                <button type="submit" class="btn btn-secondary">
+                        <span class="text text-1">Subscribe</span>
+                        <span class="text text-2">Subscribe</span>
+                </button>
+               </form>
+        </div>
+        <ul class="footer-list">
+          <li>
+            <a href="#home" class="hover-underline label-2 footer-link">Home</a>
+          </li>
+          <li>
+            <a href="#menu" class="hover-underline label-2 footer-link">Menus</a>
+          </li>
+          <li>
+            <a href="#about" class="hover-underline label-2 footer-link">About Us</a>
+          </li>
+          <li>
+            <a href="#" class="hover-underline label-2 footer-link">Our Chefs</a>
+          </li>
+          <li>
+            <a href="#contact" class="hover-underline label-2 footer-link">Contact</a>
+          </li>
+        </ul>
+        <ul class="footer-list">
+          <li>
+            <a href="#" class="hover-underline label-2 footer-link"> <i class="fa-brands fa-facebook-f"></i> Facebook </a>
+          </li>
+          <li>
+            <a href="#" class="hover-underline label-2 footer-link"> Twitter</a>
+          </li>
+          <li>
+            <a href="#" class="hover-underline label-2 footer-link"> <i class="fa-brands fa-instagram"></i> Instagram</a>
+          </li>
+          <li>
+            <a href="#" class="hover-underline label-2 footer-link"> <i class="fa-brands fa-youtube"></i> You tube</a>
+          </li>
+          <li>
+            <a href="#" class="hover-underline label-2 footer-link"><i class="fa-solid fa-location-dot"></i>  Google maps</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2022 Grilli; All Right Reserved | Crafted by <a href="" class="link">github.com</a>
+      </div>
+    </div>
+     </footer>
+          <!-- End Footer -->
+
+          <!-- Start back to top -->
+           <a href="#top" class="back-to-top">
+            <i class="fa-solid fa-chevron-up"></i>
+
+           </a>
+          <!-- End back to top -->
+
+    <script src="bootstrap-5.0.2-dist/js/js.js"></script>
+</body>
+</html>
